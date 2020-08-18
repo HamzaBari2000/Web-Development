@@ -1,0 +1,543 @@
+/* All Sections - in all the wepages all of these styles are used */
+
+/* Styles for main body */
+body{
+    background-image: url('/img/Background-Image.png');
+    background-size: 100% 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for b */
+b{
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for strong */
+strong{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for h1 */
+h1{
+    height: 25px;
+    padding-left: 10px ;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for h2 */
+h2{
+    padding: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for h3 */
+h3{
+    padding: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for h4 */
+h4{
+    font-size: 35px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for p */
+p{
+    padding: -20px;
+    color: white; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+/* Styles for banner */
+.banner{
+    height: 100px;
+    padding: 1px;
+    background-color: #660404;
+}
+ 
+/* Styles for Top Navigation Bar */
+.Fixed-Top-Navbar{
+    overflow: hidden;
+    background-color: #e6af39;
+}
+
+/* These are the styles used for styling up my link names */
+.Fixed-Top-Navbar  a{
+    float: left;
+    color: #0f0f57;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+/* These are the styles used when hovering across the navigation bar */
+.Fixed-Top-Navbar a:hover{
+    background-color: #c9a514;
+    color: #0f0f57;
+}
+
+/* This style is used when a link is clicked on active on the navigation bar */
+.Fixed-Top-Navbar a.active{
+    background-color: #c9a514;
+    color: #0f0f57;
+}
+ 
+/* Styles for Bottom Footer Bar */
+.Bottom-Footer-Bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7.5%;
+    background-color: #e6af39;
+    color: #0f0f57;
+    text-align: center;  
+    padding: 2px 10px;
+    font-family: Arial;
+}
+
+/* These are used for styling the social media links on the footer bar */
+.social{
+	float: right;
+    margin: 9px;
+    padding: -10px;
+    height: 2px;
+}
+
+/* This is used for styling the copyright text in the footer bar */
+.copyright-text{
+	float: left;
+    margin: 1px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* This is used for adding the inner padding inside all the columns used */
+*{
+    box-sizing: border-box;
+}
+
+/* End of All Sections */
+
+
+/* Styles for Index Webpage Start */
+
+/* This is how the header is styled with an image */
+.index-header{
+    padding: 60px;
+    height: 500px;
+    background-image: url('/img/index-header.png');
+    background-size: 100% 100%;
+    opacity: 0.75;
+    font-size: 30px;
+}
+
+/* This is how the sub-heading is styled with a box around it */
+.home-title-box{
+    text-align: center;
+    background: #2f2f63;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin-bottom: 75px;
+    height: 105px;
+}
+
+/* This is creating four columns which will be next to each other but,
+e.g. column 1 will be equal to column 3.
+e.g. column 2 will be equal to column 4. */
+/* This is creating two equal columns which are opposite to each other */
+.home-column-1{
+    background-color: #52a7fc;
+    color: black;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    padding-bottom:10px;
+}
+
+/* This is creating two equal columns which are opposite to each other */
+.home-column-2{
+    background-color: #16168a;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.home-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* This styles the title for the video section */
+.video-title{
+    font-size: 30px;
+    padding-left: 15.5%;
+}
+
+/* This styles are for the video window */
+.info-video{
+    height: 50%;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    padding-left: 28%;
+}
+
+/* This is the styles for the review section */
+.review-section{
+    background: #52a7fc;
+    height: 900px;
+    padding-top: 50px;
+}
+
+/* This is the styles for the review box */
+.review-box{
+    background-color: #2f2f63;
+    height: 750px;
+    padding-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+/* This is the styles for the review form
+ e.g. use this class to move the entire form togather */
+#review-form{
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+
+/* This is the styles for the review textfields */
+#review-form-txtfield{
+    width: 75%;
+    height: 30px;
+}
+
+/* This is the styles for the send buttons */
+#btnSend{
+    height: 50px;
+    width: 100px;
+    font-size: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for Index Webpage End */
+
+
+/* Styles for Register Webpage Start */
+
+/* This is used for styling registration form content */
+#nameform{
+    padding: 5px;
+    color: white;
+    height: 100px;
+    width: 60px;
+}
+
+/*This creates two columns which are opposite to each other,
+ and how the box around the column was styled and created */
+.column{
+    float: left;
+    width: 45%;
+    padding: 20px;
+    padding-left:65px;
+    padding-top: 60px;
+    height: 1700px;
+    background-color: #2f2f63;
+}
+
+/* This is how the box around the form was styled to be placed in its correct location. */
+.row{
+    padding-left: 135px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+  
+/* Clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* These Styles are used for styling up the registraion form textfiels in the registration form */
+.Username-Textfield{
+    width: 950%;
+    height: 30px;
+}
+
+.Password-Textfield{
+    width: 950%;
+    height: 30px;
+}
+
+.Firstname-Textfield{
+    width: 950%;
+    height: 30px;
+}
+
+.Lastname-Textfield{
+    width: 950%;
+    height: 30px;
+}
+
+.Email-Textfield{
+    width: 950%;
+    height: 30px;
+}
+
+.Phonenumber-Textfield{
+    width: 950%;
+    height: 30px;
+}
+
+.AddressL1-Textfield{
+    width: 90%;
+    height: 30px;
+}
+
+.AddressL2-Textfield{
+    width: 90%;
+    height: 30px;
+}
+
+.Postcode-Textfield{
+    width: 90%;
+    height: 30px;
+}
+
+.City-Textfield{
+    width: 90%;
+    height: 30px;
+}
+
+.Country-Textfield{
+    width: 90%;
+    height: 30px;
+}
+/* This is the end of registation form textfields styles */
+
+/* These are the styles for styling the register button */
+#btnRegister{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for Register Webpage End */
+
+
+/* Styles for Login Webpage Start */
+
+/* This is used for controlling the location of the box */
+.login-row{
+    padding-left: 500px;
+    padding-top: 38px;
+    padding-bottom: 120px;
+}
+
+/* This is used for styling the box */
+.Login-Form{
+    background-color: #2f2f63;
+    width: 45%;
+    padding-right: 20px;
+    padding-left: 42px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    height: 450px;
+}
+
+/* Clear floats after the column */
+.login-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* This controls the location of the H1 login title: Login */
+.login-title{
+    padding-left: 135px;
+}
+
+/* This controls the location of the H2 title: Enter your Username & Password */
+.login-subtitle{
+    padding-bottom: 0px;
+    padding-right: 5px;
+}
+
+/* This is used for styling up my whole login form content */
+#loginform{
+    color: white;
+    height: 10px;
+    width: 50px;
+    padding-top: 0%;
+}
+
+/* These Styles are used for styling up the textfiels in the login form */
+.Textfield-for-login-form{
+    width: 95%;
+    height: 30px;
+}
+
+/* These are the styles for styling the login button */
+.btnLogin{
+    height:50px;
+    width:100px;
+    font-size: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for Login Webpage End */
+
+
+/* Styles for Game Webpage Start */
+
+/* These are all the styles are for column 1 where the game information is styled up */
+.game-column-1{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    height: 2250px; 
+    background-color: #16168a;
+}
+
+/* These are all the styles for column 2 where the game window is styled up */
+.game-column-2{
+    float: right;
+    width: 80%;
+    padding: 20px;
+    height: 2250px; 
+    background-color: #2f2f63;
+}
+
+/* This is used to style the whole content of both columns togather */
+.game-row{
+    padding: 60px;
+}
+
+/* Clear floats after the columns */
+.game-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gamearea{
+    padding-left: 420px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+#answerbox1{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox2{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox3{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox4{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox5{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox6{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox7{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox8{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox9{
+    width: 300px;
+    height: 30px;
+}
+
+#answerbox10{
+    width: 300px;
+    height: 30px;
+}
+
+.submit-button{
+    height:50px;
+    width:100px;
+    font-size: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for Game Webpage End */
+
+
+/* Styles for Rankings Webpage Start */
+
+/* This controls the location of the rankings box as a whole
+ e.g. moving the box with the whole content in it togather. */
+.rankings-box{
+    padding-left: 375px;
+    padding-bottom: 90px;
+    padding-top: 40px;
+}
+
+/* These styles are used for customising the box
+ e.g. the height and width of the box */
+.Rankings-Table{
+    background-color: #6495ED;
+    width: 700px;
+    height: 600px;
+    padding: 50px;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+/* This is used for controlling the location of the rankings title */
+.ranking-title{
+    padding-bottom: 10px;
+    padding-left: 228px;
+}
+
+table{
+    border-collapse: collapse;
+}
+  
+table, th, td{
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 10px;
+}
+  
+/* Styles for Rankings Webpage End */
