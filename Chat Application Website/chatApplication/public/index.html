@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Users Chatting Application</title>
+</head>
+
+<body>
+
+    <div class="banner">  
+        <b id="res"></b>
+        <img src="img/main-logo.png" alt="Title-Logo" id="logo">
+        <img src="img/logo.png" alt="Title-Logo" id="logo2">
+        <button id="btnFeedback" onclick="displayFeedbackContent() //Displays the feedback content.">Feedback</button>
+    </div>
+        
+    <div id="header">
+        <div id="heading">
+            <h2>This is a new chatting application...</h2>
+            <button id="btnHide" onclick="hideHeaderSection() //Hides the header section.">Hide</button>
+        </div>
+    </div>
+
+   
+    
+    <div class="info-para">
+        <h1>Chat Information</h1>
+        <p> 1.) The user needs to type in the Typebox to type in their message. </p>
+        <p> 2.) Once the user has typed in their message they seend to press the button send. </p>
+        <p> 3.) The message will be displayed in the message box with the time and their name. </p>
+        <p> 4.) The message recived will show the person name and time.  </p>
+        <img src="img/image1.png" alt="Image1" height="100" width="100">
+    </div>
+
+    <div id="Add-User-To-Chat">
+        <h1> Join the Chat Information: </h1>
+        <p> 1.) Enter your name into the textbox. </p>
+        <p> 2.) Press the button "add" to be added to the chat. </p>
+        <p> 3.) If you are successful then, your name will be displayed on the top-right hand corner. </p>
+        <p> 4.) Enjoy!  </p><br><br>
+        <b> Enter your name </b><br><br>
+        <input type="text" id="fname" name="fname" placeholder="Please Enter your name here: "><br><br>
+        <button id="btnAddUser" onclick="addUser() //Adds the user to the chat.">Add User</button><br><br>
+        <img src="img/image2.png" alt="Image2" height="100" width="100">
+    </div>
+      
+    <div class="content">
+        <h1 id="s1-heading">Chat Messages Area</h1><br>
+        <div id="box">
+            <div id="chatBox"></div>
+        </div>
+        <div id="main">
+            <p id="response"></p>
+            <textarea id="text" placeholder="Enter your message here:" rows="10" cols="30"></textarea><br><br>
+            <button id="btnSend" onclick="sendMessage() //Sends a message to the other user.">Send Message</button><br><br>
+        </div>
+    </div>
+
+    <div id="Section-4">
+        <h1> Chat History </h1>
+        <p> Look below to see all the history of the messages.</p>
+    </div>
+
+    <div id="send-feedback">
+        <b id="feedbackResponse">hi</b>
+    </div>
+
+    <div id="footer">			
+        <div class="social">    
+            <a href="https://www.facebook.com" target="blank_"> <img src="img/facebook.png" alt="facebook-icon"></a>
+            <a href="https://www.Twitter.com"  target="blank_" > <img src="img/twitter.png" alt="twitter-icon"></a>
+            <a href="https://www.google.com" target="blank_" > <img src="img/google.png" alt="google-icon"></a>
+            <a href="https://uk.pinterest.com" target="blank_" > <img src="img/pintrest.png" alt="pintrest-icon"></a>        
+        </div>
+        <div class="social2">  
+            <p>&copy; 2020 | Hamza Bari</p>
+        </div>
+    </div>
+
+    <!--Link to the Client-Side JavaScript-->
+    <script src="client.js"></script>
+</body>
+
+</html>
